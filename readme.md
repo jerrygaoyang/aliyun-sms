@@ -3,6 +3,11 @@
 ```
 <?php
 
+use Aliyun\Core\Config;
+use Aliyun\Core\DefaultAcsClient;
+use Aliyun\Core\Profile\DefaultProfile;
+use Aliyun\Sms\Request\V20170525\SendSmsRequest;
+
 class Sms
 {
     /**
