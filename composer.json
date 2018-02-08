@@ -1,0 +1,22 @@
+{
+  "name": "gaoyang/aliyun-sms",
+  "description": "Aliyun SDK for PHP",
+  "keywords": [ "aliyun", "sdk" ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://www.aliyun.com",
+  "authors": [
+    {
+      "name": "gaoyang"
+    }
+  ],
+  "require": {
+    "gaoyang/aliyun-core": "*"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Aliyun\\Sms\\": "src"
+    }
+  }
+}
